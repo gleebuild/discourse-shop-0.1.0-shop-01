@@ -1,4 +1,4 @@
-class CreateOrders < ActiveRecord::Migration[7.0]
+class CreateOrders < ActiveRecord::Migration[6.1]
   def change
     create_table :shop_orders do |t|
       t.integer :product_id
